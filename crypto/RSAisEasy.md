@@ -12,13 +12,13 @@ p, q and z are derived using getPrime function in Crypto library
 then we calculate n1 and n2 using those primes
 
 then we calculate the cipher texts
-```she
+```
 c1 = flag ^ e (mod n1)
 c2 = flag ^ e (mod n2)
 ```
 E which is generated using urandom method which is used to generate a string of size random bytes
 
-```sh
+```
 t = n1*E + n2
 lets rewrite this equation
 t = p*q*E + q*z
