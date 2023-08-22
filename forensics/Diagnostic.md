@@ -233,5 +233,3 @@ By observing the file we can see that some exe is being executed and then we hav
 | }.exe | B{msDt_4s_A_pr0    | E     | r...s | 3Ms_b4D  | l3    | toC   | HT    | 0l_h4nD  |
 
 11. Now arraenging them according to the order mentioned `"{7}{1}{6}{8}{5}{3}{2}{4}{0}"`
-
-12. The Flag is `HTB{msDt_4s_A_pr0toC0l_h4nDl3r...sE3Ms_b4D}`
