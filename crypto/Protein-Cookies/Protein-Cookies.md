@@ -54,12 +54,11 @@ Taken from SkullSecurity
 ```
 This is for sha-256
 
-## POC and Attack
+## Attack and Get the flag
 - For our attack purpose we are going to use [hash extender](https://github.com/iagox86/hash_extender) tool.
 - We can get the cookie by accessing the web, there are two portion in the cookies first section before a '.' is the part for the userId and isLoggedIn flag and the rest is the value.
 	- tried changing the value from false to true and then sending it with the hash value but that didn't work.
 
-dXNlcm5hbWU9Z3Vlc3QmaXNMb2dnZWRJbj1GYWxzZQ==.MzliM2ViMGViMjlhZmZiZWY0Y2JjMjhjMDEwMjE3NTA2OTFhMTNiMzRjZmQzZWE5NDE4OTc0NjhjOGQxOGMxYmFkOGQyNzYzOWQwOTE2MWVhZTRhMzgzYTFhODhmNTA1NjU5YzAxNzdiMGYxNTY2NTVlM2VkZjRiNThlYWI3NDI=
 
 - After reading about the attack we know that we need the hashed message and the length is known to us, we got hashed message from cookie and the secret length is 16, this we can see in models.py
 ```
