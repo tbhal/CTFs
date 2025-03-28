@@ -43,7 +43,7 @@ Now we dissassembe and decompile using Ghidra or Binary Ninja.
 ![function and methods](updated_functions_and_hide_method.png)
 - The rootkit actually hooks the original function by replacing them with the `hacked_syscallName`.
 
-- Navigating to the `hacked_kill` function. We can see that ther are multiple if else blocks and at the end of these blocks we are calling the `orig_kill` function.
+- Navigating to the `hacked_kill` function. We can see that there are multiple if else blocks and at the end of these blocks we are calling the `orig_kill` function.\
 ![hacked kill part 1](hacked_kill_part1.png)
 ![hacked kill part 2](hacked_kill_part2.png)
 
